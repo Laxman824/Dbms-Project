@@ -1,0 +1,85 @@
+body{
+    overflow-y: auto;
+}
+
+.box1{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 45%;
+}
+
+.heading{
+    color: chocolate;
+    font: bolder;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+table{
+    position: absolute;
+    top: 120px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+table,th,td{
+    height: 50px;
+}
+
+tr:hover{
+    background-color: #c7c6c6;
+}
+
+th{
+   background-color: darkorchid;
+   color: white;
+   font: bolder;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+
+td{
+    text-align: center;
+}
+
+.box2{
+    position: absolute;
+    top: 80px;
+    width: 45%;
+    left: 850px;
+}
+
+.formhead{
+    width: 500px;
+    color: rgb(248, 113, 3);
+    font: bold;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.tb{
+    width: 450px;
+    border: 5px solid rgb(221, 150, 118);
+    border-radius: 5px;
+}
+
+.options{
+    width: 100%;
+    margin: 30px 10px;
+}
+
+label{
+    color: rgb(238, 31, 203);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.note{
+    color: rgb(248, 113, 3);
+    font-family: cursive;
+    margin: 10px 10px;
+    font-size: 12px;
+}

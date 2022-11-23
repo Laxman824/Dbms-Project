@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(205, 227, 235);
+}
+
+.navbar{
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar li{
+    width: 20%;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(89, 96, 192);
+    border-radius: 2px;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(217, 240, 216);
+}

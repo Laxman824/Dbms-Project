@@ -1,0 +1,45 @@
+body{
+    overflow-y: auto;
+}
+
+.heading{
+    position: absolute;
+    top: 50px;
+    color: chocolate;
+    font: bolder;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+table{
+    position: absolute;
+    top: 120px;
+    width: 100%;
+}
+
+table,th,td{
+    height: 50px;
+}
+
+tr:hover{
+    background-color: #c7c6c6;
+}
+
+th{
+   background-color: darkorchid;
+   color: white;
+   font: bolder;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+
+td{
+    text-align: center;
+}
+
+.airline{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
